@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "posts",
+  "info": {
+    "name": "posts",
+    "description": "REST Service posts"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "users": {
+      "collection": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
+    },
+    "files": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "posts": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "body": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  }
+}
